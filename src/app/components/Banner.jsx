@@ -7,9 +7,7 @@ export default function Banner() {
         <Link className="text-3xl ml-8 cursor-pointer" href="/">Home</Link>
         <div className="hidden md:flex">
           <nav className="flex space-x-6">
-            <h2 className="text-2xl cursor-pointer">About</h2>
-            <Link className="text-2xl cursor-pointer" href="/register">Account</Link>
-            <h2 className="text-2xl cursor-pointer">Contact Us</h2>
+            <Link className="text-2xl cursor-pointer" href="/user/login">Register/Log in</Link>
           </nav>
         </div>
       </div>
