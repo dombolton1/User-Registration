@@ -6,7 +6,7 @@ export async function POST(req) {
   console.log('Received POST request to /api/users/register');
 
 
-  //Add logic for checking all fields are completed on both frontend and server
+  //TODO: Add logic for checking all fields are completed on both frontend and server
   try {
     const body = await req.json();
 
